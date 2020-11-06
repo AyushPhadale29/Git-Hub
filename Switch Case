@@ -1,0 +1,21 @@
+int main()
+{
+  printf("Pick a number\n");
+
+  int choice=0;
+  scanf("%d",&choice);
+
+  switch(choice)
+  {
+    case 0:
+    printf("You choose 0");
+    break;
+
+    case 1:
+    printf("You choose 1");
+    break;
+
+    default:
+    printf("Invalid choice");
+  }
+}
